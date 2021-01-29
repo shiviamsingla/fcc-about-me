@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" description="shiviamsingla">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shiviam Singla's Personal Portfolio created with tailwindCSS</title>
+	<script src="https://use.fontawesome.com/95752824f1.js"></script>
+	<!-- GOOGLE FONTS INCLUDED HERE -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet"> 
+</head>
+<body class="font-serif bg-gradient-to-r from-pink-800 to-pink-200">
+	<header class="fixed w-full h-14 z-50">
+		<nav id="navbar" class="bg-pink-800 flex items-center space-x-4 text-white shadow-lg">
+      <p id="logo" class="flex items-center font-extrabold h-full p-4 text-white hover:bg-pink-900">Shiviam Singla</p>
+			<ul class="flex space-x-3">
+				<li class="p-2 rounded hover:bg-white hover:text-pink-800"><a href="#welcome-section">About</a></li>
+				<li class="p-2 rounded hover:bg-white hover:text-pink-800"><a href="#projects">Projects</a></li>
+				<li class="p-2 rounded hover:bg-white hover:text-pink-800"><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header><br><br>
+	<section id="welcome-section" class="w-full h-screen bg-gradient-to-r from-transparent to-white flex flex-col justify-center items-center space-x-3 space-y-2 p-2">
+		<h1 class="text-pink-800 md:text-6xl sm:text-6xl text-3xl p-2">👋 Hi, I'm Shiviam Singla</h1>
+		<p class="text-lg" style="font-family: 'Cedarville Cursive', cursive;">A Web Developer & E.Hacker</p>
+		<button class="border bg-pink-800 text-white rounded shadow-xl p-3 hover:border-pink-800 hover:text-pink-800 hover:bg-white transition ease-in-out" onclick="document.location='https://shiviamsingla.github.io/resume-12-7-2020.pdf'">
+			<i class="fa fa-download" aria-hidden="true"></i> Download Resume</button>
+		<div class="w-5/6 border border-pink-800 border-l-4 p-2 transform scale-75 -rotate-3 hover:scale-100 hover:rotate-0 transition" style="background-color: rgba(100%,100%,100%,0.5);">
+			<h1 class="text-2xl sm:text-4xl md:text-4xl border-b-2 border-pink-800">About Me</h1>
+			<div class="flex flex-col md:flex-row sm:flex-row items-center md:items-start sm:items-start">
+			<img src="https://shiviamsingla.github.io/me.jpg" class="w-1/3 sm:w-1/5 md:w-1/5 m-2 text-left rounded shadow-xl">
+			<p class="p-2 text-justify text-lg"> 
+    Shiviam Singla lives in Punjab (India), I'm 19 years old. Thanks for spending your valueable time on my portfolio. In 2015, my teacher named Varinder Kumar Adviced me to Join IT/ITes, and this was starting of my computer journey. I started Learning MS Office and basic computer in my IT/ITes Course.</p>
+			</div>
+		</div>
+	</section>
+	<section id="projects" class="bg-gradient-to-b from-transparent to-pink-700">
+		<h1 class="text-white md:text-4xl sm:text-4xl text-3xl p-2 text-center">Take a look at Projects 👀</h1>
+		<div class="flex flex-col justify-center items-center w-full sm:flex-row md:flex-row ">
+			<div class="w-full sm:w-1/3 md:w-1/3 flex flex-col justify-center items-center transition transform scale-75 hover:scale-90 space-y-2 project-tile">
+				<div><img src="pro1.png" class="w-full rounded"></div>
+				<div><a href="https://shiviamsingla.github.io" class="text-center text-white text-2xl hover:text-yellow-300">Personal Portfolio</a></div>
+			</div>
+			<div class="w-full sm:w-1/3 md:w-1/3 flex flex-col justify-center items-center transition transform scale-75 hover:scale-90 space-y-2 project-tile">
+				<div><img src="pro3.png" class="w-full rounded"></div>
+				<div><a href="https://shiviamsingla.github.io/magic-square-generator/" class="text-center text-white text-2xl hover:text-yellow-300">Magic Square Generator</a></div>
+			</div>
+			<div class="w-full sm:w-1/3 md:w-1/3 flex flex-col justify-center items-center transition transform scale-75 hover:scale-90 space-y-2 project-tile">
+				<div><img src="pro2.png" class="w-full rounded"></div>
+				<div><a href="https://shiviamsingla.github.io/TypingCert/" class="text-center text-white text-2xl hover:text-yellow-300">TypingCert</a></div>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="m-3 p-5 bg-pink-700 text-white">
+		<div>
+			<h1 class="text-center text-4xl md:text-6xl sm:text-6xl pb-4">Let's Work Together 🤝</h1>
+		</div>
+		<div class="w-full flex flex-col sm:flex-row md:flex-row justify-center items-center space-x-3 mt-3">
+			<a href="https://www.freecodecamp.org/shiviamsingla" id="profile-link" class="text-2xl text-center hover:text-yellow-300"><img src="https://cdn.rawgit.com/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg" class="stroke-current w-10 text-white inline"><br>FreeCodeCamps</a>
+			<a href="https://www.facebook.com/shiviamsingla" id="fb-link" class="text-2xl text-center hover:text-yellow-300"><i class="fa fa-facebook" aria-hidden="true"></i><br>Facebook</a>
+			<a href="https://www.freecodecamp.org/shiviamsingla" id="tw-link" class="text-2xl text-center hover:text-yellow-300"><i class="fa fa-twitter" aria-hidden="true"></i><br>Twitter</a>
+			<a href="https://www.facebook.com/shiviamsingla" id="email-link" class="text-2xl text-center hover:text-yellow-300"><i class="fa fa-envelope" aria-hidden="true"></i><br>Email</a>
+		</div>
+	</section>
+	<footer class="w-full h-20 text-white flex justify-center items-center bg-pink-800">
+		&copy 2021 Create with ❤️ by Shiviam Singla
+	</footer>
+</body>
+</html>
